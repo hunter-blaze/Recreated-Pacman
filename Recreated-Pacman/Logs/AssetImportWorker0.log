@@ -1072,3 +1072,464 @@ Received Import Request.
 Start importing Assets/Animations/Pac-man_0.controller using Guid(2f7d5b850de7e409c96957f18d3a5a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd161697d05c06379edbc472dda5d4565') in 0.001722 seconds
   Import took 0.004555 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 581.973976 seconds.
+  path: Assets/Animations/Ghost-2Animator.anim
+  artifactKey: Guid(5015f9bc2441c47c18d69c5cb1257907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-2Animator.anim using Guid(5015f9bc2441c47c18d69c5cb1257907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0641bcf591812ca1eafbf7e638de31') in 0.002801 seconds
+  Import took 0.008097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042217 seconds.
+  path: Assets/Animations/Ghost-2Animator.anim
+  artifactKey: Guid(5015f9bc2441c47c18d69c5cb1257907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-2Animator.anim using Guid(5015f9bc2441c47c18d69c5cb1257907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0641bcf591812ca1eafbf7e638de31') in 0.001362 seconds
+  Import took 0.003905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.341332 seconds.
+  path: Assets/Animations/Pacman_Walking_RIght.anim
+  artifactKey: Guid(1a5ed83a8d39f44fda1c72f803bbeb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Pacman_Walking_RIght.anim using Guid(1a5ed83a8d39f44fda1c72f803bbeb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96964f38d3722808f8e579e11f334b64') in 0.002016 seconds
+  Import took 0.004654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.504460 seconds.
+  path: Assets/Animations/Pacman_Walking_Right.anim
+  artifactKey: Guid(1a5ed83a8d39f44fda1c72f803bbeb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Pacman_Walking_Right.anim using Guid(1a5ed83a8d39f44fda1c72f803bbeb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fb8f0c900d1a9b5391294abe027897') in 0.001551 seconds
+  Import took 0.004254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.494210 seconds.
+  path: Assets/Animations/Pac-man_0.controller
+  artifactKey: Guid(2f7d5b850de7e409c96957f18d3a5a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Pac-man_0.controller using Guid(2f7d5b850de7e409c96957f18d3a5a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f9de1e249fef2a5572ff62df2d965') in 0.005448 seconds
+  Import took 0.010138 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.3 MB.
+System memory in use after: 166.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 1.497125 ms (FindLiveObjects: 0.185000 ms CreateObjectMapping: 0.038292 ms MarkObjects: 1.173667 ms  DeleteObjects: 0.099291 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001198 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.626 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 1.394875 ms (FindLiveObjects: 0.100166 ms CreateObjectMapping: 0.034334 ms MarkObjects: 1.167375 ms  DeleteObjects: 0.092208 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.675 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.7 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 1.359958 ms (FindLiveObjects: 0.103458 ms CreateObjectMapping: 0.034708 ms MarkObjects: 1.126625 ms  DeleteObjects: 0.094583 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1216.846881 seconds.
+  path: Assets/Sprites/Pellet-Normal.png
+  artifactKey: Guid(b38534e658184435eb1abd5566aade10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pellet-Normal.png using Guid(b38534e658184435eb1abd5566aade10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7a3a9d06e1f08a80cf099f9e786298') in 0.129576 seconds
+  Import took 0.132367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.994872 seconds.
+  path: Assets/Sprites/Pellet-Normal.png
+  artifactKey: Guid(b38534e658184435eb1abd5566aade10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pellet-Normal.png using Guid(b38534e658184435eb1abd5566aade10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e53a820461d16e1b27fa095d6b28e44') in 0.009322 seconds
+  Import took 0.012013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.982888 seconds.
+  path: Assets/Animations/Ghost-1-Scared.anim
+  artifactKey: Guid(8ea99982ded70481980fef25396b508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1-Scared.anim using Guid(8ea99982ded70481980fef25396b508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491610f4729cce3a5a1b56de27cad52c') in 0.002759 seconds
+  Import took 0.005169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022631 seconds.
+  path: Assets/Animations/Ghost-1-Scared.anim
+  artifactKey: Guid(8ea99982ded70481980fef25396b508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1-Scared.anim using Guid(8ea99982ded70481980fef25396b508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491610f4729cce3a5a1b56de27cad52c') in 0.001377 seconds
+  Import took 0.003631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.067359 seconds.
+  path: Assets/Animations/Ghost-1Animator.anim
+  artifactKey: Guid(f08a1d3eadfd84eec9599acffb15ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1Animator.anim using Guid(f08a1d3eadfd84eec9599acffb15ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276b4c50f6d4115e8ea4d6218a04d720') in 0.002367 seconds
+  Import took 0.005830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.974896 seconds.
+  path: Assets/Animations/Ghost-1_0.controller
+  artifactKey: Guid(59e9dd1bf02184cabab42f75e2281588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1_0.controller using Guid(59e9dd1bf02184cabab42f75e2281588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f320fa85c70b9b33a45039e835af13e') in 0.006974 seconds
+  Import took 0.010908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.300640 seconds.
+  path: Assets/Animations/Ghost-1.controller
+  artifactKey: Guid(59e9dd1bf02184cabab42f75e2281588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1.controller using Guid(59e9dd1bf02184cabab42f75e2281588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce496138ee16083826ba23e0e2a3845e') in 0.001714 seconds
+  Import took 0.004425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.676693 seconds.
+  path: Assets/Animations/Ghost-2_0.controller
+  artifactKey: Guid(5655688df728848d293145d45908e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-2_0.controller using Guid(5655688df728848d293145d45908e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d485e3636e2c006c1e905ab440c6217') in 0.002481 seconds
+  Import took 0.006048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001125 seconds.
+  path: Assets/Animations/Ghost-2_0.controller
+  artifactKey: Guid(5655688df728848d293145d45908e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-2_0.controller using Guid(5655688df728848d293145d45908e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d485e3636e2c006c1e905ab440c6217') in 0.001896 seconds
+  Import took 0.004735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.320960 seconds.
+  path: Assets/Animations/Ghost-2.controller
+  artifactKey: Guid(5655688df728848d293145d45908e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-2.controller using Guid(5655688df728848d293145d45908e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806c9e4ddfd1af90d8e21a925bab8704') in 0.001628 seconds
+  Import took 0.004402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.668531 seconds.
+  path: Assets/Animations/Ghost-3_0.controller
+  artifactKey: Guid(d1e428f5f9eb64b67bcb83014577f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-3_0.controller using Guid(d1e428f5f9eb64b67bcb83014577f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a439e4761ad39a822c6f1758bd90049e') in 0.003415 seconds
+  Import took 0.006745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.811864 seconds.
+  path: Assets/Animations/Ghost-3.controller
+  artifactKey: Guid(d1e428f5f9eb64b67bcb83014577f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-3.controller using Guid(d1e428f5f9eb64b67bcb83014577f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c2436c582f0062868aaeeb448c36f5') in 0.001726 seconds
+  Import took 0.004737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.221878 seconds.
+  path: Assets/Animations/Ghost-4_0.controller
+  artifactKey: Guid(6207ebc7b2eb64bd4af3551186ee88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-4_0.controller using Guid(6207ebc7b2eb64bd4af3551186ee88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa38a10870f44f4a3ac9974c31e7daf7') in 0.003664 seconds
+  Import took 0.007418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Animations/Ghost-4_0.controller
+  artifactKey: Guid(6207ebc7b2eb64bd4af3551186ee88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-4_0.controller using Guid(6207ebc7b2eb64bd4af3551186ee88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa38a10870f44f4a3ac9974c31e7daf7') in 0.001919 seconds
+  Import took 0.004739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.767955 seconds.
+  path: Assets/Animations/Ghost-4.controller
+  artifactKey: Guid(6207ebc7b2eb64bd4af3551186ee88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-4.controller using Guid(6207ebc7b2eb64bd4af3551186ee88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af63abb2d101b0869a0aa83767174bad') in 0.001660 seconds
+  Import took 0.004514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.349043 seconds.
+  path: Assets/Animations/Pac-man.controller
+  artifactKey: Guid(2f7d5b850de7e409c96957f18d3a5a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Pac-man.controller using Guid(2f7d5b850de7e409c96957f18d3a5a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccda8346aeab5b2afe638d5dae57524') in 0.004310 seconds
+  Import took 0.007556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.211242 seconds.
+  path: Assets/Animations/Pellet-Power_0.controller
+  artifactKey: Guid(0845b1acf72694fc98130374d5c692c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Pellet-Power_0.controller using Guid(0845b1acf72694fc98130374d5c692c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b84aa075ee1ecb7a953a46067ba94d') in 0.002493 seconds
+  Import took 0.006375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.515764 seconds.
+  path: Assets/Animations/Pellet-Power.controller
+  artifactKey: Guid(0845b1acf72694fc98130374d5c692c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Pellet-Power.controller using Guid(0845b1acf72694fc98130374d5c692c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ed030d5f7d5cec5f5e0a208d5fd2d0') in 0.001883 seconds
+  Import took 0.004824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.447717 seconds.
+  path: Assets/Animations/Ghost-1_Walking_Left.anim
+  artifactKey: Guid(f08a1d3eadfd84eec9599acffb15ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1_Walking_Left.anim using Guid(f08a1d3eadfd84eec9599acffb15ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac0067f56b33883f3631a667db82615') in 0.002171 seconds
+  Import took 0.004875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.395842 seconds.
+  path: Assets/Animations/Ghost-1.controller
+  artifactKey: Guid(59e9dd1bf02184cabab42f75e2281588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1.controller using Guid(59e9dd1bf02184cabab42f75e2281588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac85331447ba9cb770362833241084e6') in 0.004056 seconds
+  Import took 0.007680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.011897 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-1_Recovery_Down.anim
+  artifactKey: Guid(f196c0089ca104ec080b570f7617b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-1_Recovery_Down.anim using Guid(f196c0089ca104ec080b570f7617b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de6f8659e5079b3ce1b468ae48a6c5f') in 0.003432 seconds
+  Import took 0.006998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.312864 seconds.
+  path: Assets/Animations/Ghost-2.controller
+  artifactKey: Guid(5655688df728848d293145d45908e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-2.controller using Guid(5655688df728848d293145d45908e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec46ab286dd00726bb67cf8e21cc74c5') in 0.003382 seconds
+  Import took 0.007879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.329728 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-2_Normal_Down.anim
+  artifactKey: Guid(7c2a0521ad4394cc1a734f98c810301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-2_Normal_Down.anim using Guid(7c2a0521ad4394cc1a734f98c810301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab2f54b75067fa2775b7eabe5017960') in 0.002137 seconds
+  Import took 0.005554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.754888 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-2_Normal_Left.anim
+  artifactKey: Guid(eff7ce32c607345ec9f635fdf210c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-2_Normal_Left.anim using Guid(eff7ce32c607345ec9f635fdf210c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2babad4c14ca4ad3737e3895c6e60f21') in 0.002688 seconds
+  Import took 0.006165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.121160 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-2_Normal_Right.anim
+  artifactKey: Guid(3ce5c7b4a5a8b492698270b282d232aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-2_Normal_Right.anim using Guid(3ce5c7b4a5a8b492698270b282d232aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010d6b72895ec0dfd51bd3e708f05223') in 0.004561 seconds
+  Import took 0.008332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-2_Normal_Right.anim
+  artifactKey: Guid(3ce5c7b4a5a8b492698270b282d232aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-2_Normal_Right.anim using Guid(3ce5c7b4a5a8b492698270b282d232aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010d6b72895ec0dfd51bd3e708f05223') in 0.001758 seconds
+  Import took 0.004951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.122287 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-3_Normal_Down.anim
+  artifactKey: Guid(9abcb2a02ba9c40dd9fa14f02d2d5fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-3_Normal_Down.anim using Guid(9abcb2a02ba9c40dd9fa14f02d2d5fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb1b684266e715f4e657f8f5bd64ff6') in 0.003313 seconds
+  Import took 0.007390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.972649 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-3_Recovery_Down.anim
+  artifactKey: Guid(01b3ab7cc8e274b3790255fd2ef6b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-3_Recovery_Down.anim using Guid(01b3ab7cc8e274b3790255fd2ef6b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9bac79323de555776854604a758c7c') in 0.002548 seconds
+  Import took 0.006171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.741941 seconds.
+  path: Assets/Animations/Ghost-2Animator.anim
+  artifactKey: Guid(5015f9bc2441c47c18d69c5cb1257907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-2Animator.anim using Guid(5015f9bc2441c47c18d69c5cb1257907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573da9f324fd79d0edbd8dcf1e3d54cc') in 0.002165 seconds
+  Import took 0.005522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.719799 seconds.
+  path: Assets/Animations/Ghost-3Animator.anim
+  artifactKey: Guid(cd0f1c5319e6541d5a724653059b1663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-3Animator.anim using Guid(cd0f1c5319e6541d5a724653059b1663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85909b072d1e3c3aa53d0869bdfac5cd') in 0.002438 seconds
+  Import took 0.005695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.703205 seconds.
+  path: Assets/Animations/Ghost-4Animator.anim
+  artifactKey: Guid(7a069d12229184fd7b94b7288ea7a7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-4Animator.anim using Guid(7a069d12229184fd7b94b7288ea7a7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc79fa9041bb46271df8c3b7292b267b') in 0.002262 seconds
+  Import took 0.005802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.283908 seconds.
+  path: Assets/Animations/Ghost-1_Walking_Right.anim
+  artifactKey: Guid(5b8bdedd1974b4dfbb76aa6106ae6c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1_Walking_Right.anim using Guid(5b8bdedd1974b4dfbb76aa6106ae6c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6033a6c9b4865c4c79842d7c0be7d0') in 0.002302 seconds
+  Import took 0.006023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448597 seconds.
+  path: Assets/Animations/Ghost-1_Walking_Up.anim
+  artifactKey: Guid(9316273106f58412da8b8b544003dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1_Walking_Up.anim using Guid(9316273106f58412da8b8b544003dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838f36d33f3c27b19269553ea7c3118e') in 0.001980 seconds
+  Import took 0.004868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.826760 seconds.
+  path: Assets/Animations/Ghost-1_Walking_Down.anim
+  artifactKey: Guid(4cfdfe94b768d4978996555fb8d617ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-1_Walking_Down.anim using Guid(4cfdfe94b768d4978996555fb8d617ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb65f827373cd562610376f594ad297') in 0.002866 seconds
+  Import took 0.006634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.908370 seconds.
+  path: Assets/Animations/Ghost-4.controller
+  artifactKey: Guid(6207ebc7b2eb64bd4af3551186ee88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-4.controller using Guid(6207ebc7b2eb64bd4af3551186ee88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a106f5b50e369f8c7ae1424564847c') in 0.002674 seconds
+  Import took 0.005901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.537539 seconds.
+  path: Assets/Animations/Ghost-3_Recovery_Up.anim
+  artifactKey: Guid(3796dbb8191664778b952145a13173d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-3_Recovery_Up.anim using Guid(3796dbb8191664778b952145a13173d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3898b220a28f18aade47d24cd3413f0e') in 0.002980 seconds
+  Import took 0.010119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002758 seconds.
+  path: Assets/Animations/Ghost-3_Recovery_Up.anim
+  artifactKey: Guid(3796dbb8191664778b952145a13173d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-3_Recovery_Up.anim using Guid(3796dbb8191664778b952145a13173d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3898b220a28f18aade47d24cd3413f0e') in 0.001467 seconds
+  Import took 0.004424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.113597 seconds.
+  path: Assets/Animations/Ghost-2_Recovery_Up.anim
+  artifactKey: Guid(1396507c484894485a9a727832c132af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-2_Recovery_Up.anim using Guid(1396507c484894485a9a727832c132af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fce8cb922c40ed6d9677d218cf949e') in 0.002731 seconds
+  Import took 0.006032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.575135 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-4_Scared_Up.anim
+  artifactKey: Guid(9477c24f446244b16843898f3701be88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-4_Scared_Up.anim using Guid(9477c24f446244b16843898f3701be88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a71c079dc4113704beebc924b71e95') in 0.003360 seconds
+  Import took 0.007546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.307223 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost-4_Scared_Down.anim
+  artifactKey: Guid(f5e757ee0a405402da84967a5c000315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost-4_Scared_Down.anim using Guid(f5e757ee0a405402da84967a5c000315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78238db23ecd7d775c2e884db788108a') in 0.003003 seconds
+  Import took 0.006243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1084.283008 seconds.
+  path: Assets/Animations/Ghost-3.controller
+  artifactKey: Guid(d1e428f5f9eb64b67bcb83014577f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ghost-3.controller using Guid(d1e428f5f9eb64b67bcb83014577f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284024a640f2c0f2cf723b3ae6734730') in 0.003113 seconds
+  Import took 0.007378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1659.047306 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost_Dead_Down.anim
+  artifactKey: Guid(f05f278e7b3004e68b2db4b9770478f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost_Dead_Down.anim using Guid(f05f278e7b3004e68b2db4b9770478f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f8c7de68e44ccc8b2f730bd5ceb074') in 0.006823 seconds
+  Import took 0.010733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.448690 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost_Dead_Up.anim
+  artifactKey: Guid(a5fe3ec5b55ab495f9180f4ca42d88b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost_Dead_Up.anim using Guid(a5fe3ec5b55ab495f9180f4ca42d88b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ce39f161fcf211ae1073e66b242849') in 0.004361 seconds
+  Import took 0.007854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.753474 seconds.
+  path: Assets/Sprites/Ghost/Ghost-1/Ghost_Dead_Right.anim
+  artifactKey: Guid(6215f4bed41694fdcb918a1e8172f53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/Ghost-1/Ghost_Dead_Right.anim using Guid(6215f4bed41694fdcb918a1e8172f53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a501bbcf3dcbb6216fb62b02c36e9297') in 0.004264 seconds
+  Import took 0.007635 seconds .
+
