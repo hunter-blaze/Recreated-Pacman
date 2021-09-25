@@ -715,3 +715,42 @@ System memory in use after: 157.0 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
 Total: 1.457709 ms (FindLiveObjects: 0.113667 ms CreateObjectMapping: 0.038208 ms MarkObjects: 1.210208 ms  DeleteObjects: 0.094667 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2814.166505 seconds.
+  path: Assets/Scripts/Tween.cs
+  artifactKey: Guid(44ee0589c4b1341f18f7fbf45af7a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tween.cs using Guid(44ee0589c4b1341f18f7fbf45af7a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96662d0dfcaa3ad47d04e245c4ce812') in 0.249327 seconds
+  Import took 0.251713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998974 seconds.
+  path: Assets/Scripts/Tweener.cs
+  artifactKey: Guid(ffcd25b2d15cb4fb88c24d2baef7624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweener.cs using Guid(ffcd25b2d15cb4fb88c24d2baef7624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a694ee3cd61ad112ddd4e22dbdb52cf') in 0.001216 seconds
+  Import took 0.004231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.4 MB.
+System memory in use after: 161.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 1.385709 ms (FindLiveObjects: 0.115584 ms CreateObjectMapping: 0.041416 ms MarkObjects: 1.133917 ms  DeleteObjects: 0.094000 ms)
+
