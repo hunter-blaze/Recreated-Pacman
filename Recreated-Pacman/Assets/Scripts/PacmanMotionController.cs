@@ -6,7 +6,9 @@ public class PacmanMotionController : MonoBehaviour
 {
     [SerializeField] Transform pacman;
     [SerializeField] Animator pacman_Anim;
+    [SerializeField] AudioClip moveSound;
 
+    AudioSource audioSource;
     Tween activeTween;
 
     const float distance = 0.32f;
@@ -22,6 +24,11 @@ public class PacmanMotionController : MonoBehaviour
         pacman = this.GetComponent<Transform>();
         pacman_Anim = this.GetComponent<Animator>();
         pacman.localPosition = new Vector3(-x, y, 0); // pacman is place inside a parent
+
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = moveSound;
+        audioSource.volume = 0.3f;
     }
 
     void Update()
@@ -51,6 +58,7 @@ public class PacmanMotionController : MonoBehaviour
     }
 
     void MovementDirection() {
+        MoveSound();
         if (pacman.localPosition.x < activeTween.EndPos.x)
             pacman_Anim.SetInteger("Movement", 0);
         if (pacman.localPosition.y > activeTween.EndPos.y)
@@ -59,5 +67,11 @@ public class PacmanMotionController : MonoBehaviour
             pacman_Anim.SetInteger("Movement", 2);
         if (pacman.localPosition.y < activeTween.EndPos.y)
             pacman_Anim.SetInteger("Movement", 3);
+    }
+
+    void MoveSound() {
+        if (!audioSource.isPlaying) {
+            audioSource.Play();
+        }
     }
 }

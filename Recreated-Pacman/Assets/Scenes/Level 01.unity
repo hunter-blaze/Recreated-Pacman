@@ -21637,6 +21637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pacman: {fileID: 809144398}
   pacman_Anim: {fileID: 809144396}
+  moveSound: {fileID: 8300000, guid: 98a8e3abba33f45a0a12fe7888129043, type: 3}
 --- !u!1 &812329803
 GameObject:
   m_ObjectHideFlags: 0
