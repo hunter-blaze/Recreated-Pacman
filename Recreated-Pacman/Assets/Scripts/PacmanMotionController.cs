@@ -28,6 +28,7 @@ public class PacmanMotionController : MonoBehaviour
     {
         AddTween();
         if (activeTween != null) {
+            MovementDirection();
             pacman.localPosition = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, (Time.time - activeTween.StartTime) / activeTween.Duration);
 
             if (Vector3.Distance(pacman.localPosition, activeTween.EndPos) == 0)      
@@ -47,5 +48,16 @@ public class PacmanMotionController : MonoBehaviour
             if (pacman.localPosition.x == -x && pacman.localPosition.y == -y)   // bottom left (-2.5f, -2.0f)
                 activeTween = new Tween(pacman.localPosition, new Vector3(-x, y, 0), Time.time, moveVertical); // move up
         }
+    }
+
+    void MovementDirection() {
+        if (pacman.localPosition.x < activeTween.EndPos.x)
+            pacman_Anim.SetInteger("Movement", 0);
+        if (pacman.localPosition.y > activeTween.EndPos.y)
+            pacman_Anim.SetInteger("Movement", 1);
+        if (pacman.localPosition.x > activeTween.EndPos.x)
+            pacman_Anim.SetInteger("Movement", 2);
+        if (pacman.localPosition.y < activeTween.EndPos.y)
+            pacman_Anim.SetInteger("Movement", 3);
     }
 }
