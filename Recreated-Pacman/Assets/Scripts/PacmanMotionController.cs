@@ -5,11 +5,9 @@ using UnityEngine;
 public class PacmanMotionController : MonoBehaviour
 {
     [SerializeField] Transform pacman;
-    [SerializeField] Animation pacman_Anim;
+    [SerializeField] Animator pacman_Anim;
 
-    // int lastTime;
-    int lastMoveTime;
-    float timer;
+    Tween activeTween;
 
     const float distance = 0.32f;
     const float x = 2.5f * distance;
@@ -18,58 +16,36 @@ public class PacmanMotionController : MonoBehaviour
     const float moveHorizontal = 5.0f;
     const float moveVertical = 4.0f;
 
-    bool moveCheck; // check if either pacman moves horizontal or vertical
 
     void Start()
     {
-        ResetTime();
         pacman = this.GetComponent<Transform>();
-        pacman_Anim = this.GetComponent<Animation>();
+        pacman_Anim = this.GetComponent<Animator>();
         pacman.localPosition = new Vector3(-x, y, 0); // pacman is place inside a parent
     }
 
     void Update()
     {
-        timer += Time.deltaTime;
+        AddTween();
+        if (activeTween != null) {
+            pacman.localPosition = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, (Time.time - activeTween.StartTime) / activeTween.Duration);
 
-        // if ((int)timer > lastTime) {
-        //     lastTime = (int)timer;
-		// 	Debug.Log(lastTime);
-        // }
-
-        if (moveCheck) {    // Horizontal moves first
-            if ((int)timer > lastMoveTime - 1 + (int)moveHorizontal) {
-                lastMoveTime = (int)timer;
-                MovePacman();
-                moveCheck = false;
-                // Debug.Log("Horizontal");
-            }
-        } else {    // Vertical is next
-            if ((int)timer > lastMoveTime - 1 + (int)moveVertical) {
-                lastMoveTime = (int)timer;
-                MovePacman();
-                moveCheck = true;
-                // Debug.Log("Vertical");
-            }
+            if (Vector3.Distance(pacman.localPosition, activeTween.EndPos) == 0)      
+                activeTween = null;
         }
+
     }
 
-    void ResetTime() {
-        lastMoveTime = 0;
-        // lastTime = -1; 
-        timer = 0.0f;
-        moveCheck = true;
-    }
-
-    void MovePacman() {
-        if (pacman.localPosition.x == -x && pacman.localPosition.y == y) { // top left (-2.5f, 2.0f)
-            pacman.localPosition = new Vector3(x, y, 0);
-        } else if (pacman.localPosition.x == x && pacman.localPosition.y == y) {  // top right (2.5f, 2.0f)
-            pacman.localPosition = new Vector3(x, -y, 0);
-        } else if (pacman.localPosition.x == x && pacman.localPosition.y == -y) {  // bottom right (2.5f, -2.0f)
-            pacman.localPosition = new Vector3(-x, -y, 0);
-        } else {    // bottom left (-2.5f, -2.0f)
-            pacman.localPosition = new Vector3(-x, y, 0);
+    void AddTween() {
+        if (activeTween == null) {
+            if (pacman.localPosition.x == -x && pacman.localPosition.y == y) // top left (-2.5f, 2.0f)
+                activeTween = new Tween(pacman.localPosition, new Vector3(x, y, 0), Time.time, moveHorizontal); // move right
+            if (pacman.localPosition.x == x && pacman.localPosition.y == y)  // top right (2.5f, 2.0f)
+                activeTween = new Tween(pacman.localPosition, new Vector3(x, -y, 0), Time.time, moveVertical); // move down
+            if (pacman.localPosition.x == x && pacman.localPosition.y == -y)  // bottom right (2.5f, -2.0f)
+                activeTween = new Tween(pacman.localPosition, new Vector3(-x, -y, 0), Time.time, moveHorizontal); // move left
+            if (pacman.localPosition.x == -x && pacman.localPosition.y == -y)   // bottom left (-2.5f, -2.0f)
+                activeTween = new Tween(pacman.localPosition, new Vector3(-x, y, 0), Time.time, moveVertical); // move up
         }
     }
 }
