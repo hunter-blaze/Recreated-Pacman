@@ -14121,7 +14121,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e89df70b9d044f91aef79297e4ad350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelSprites: []
+  sprites:
+  - {fileID: 21300000, guid: 6bbd065e82f214027b6eb4658c387797, type: 3}
+  - {fileID: 21300000, guid: ea5d0bf1f24a54db4bb234667f33451d, type: 3}
+  - {fileID: 21300000, guid: 301e8944b4fe54841a98aa07dd5d4690, type: 3}
+  - {fileID: 21300000, guid: 0d17450fd8545411bb1675301295e9f9, type: 3}
+  - {fileID: 21300000, guid: b38534e658184435eb1abd5566aade10, type: 3}
+  - {fileID: 2842720889442964392, guid: 67a5d16307f334e1e8408c495449bbe7, type: 3}
+  - {fileID: 21300000, guid: 98e019a65447646889547d6bc63a9e99, type: 3}
+  powerPellet: {fileID: 9100000, guid: 0845b1acf72694fc98130374d5c692c8, type: 2}
 --- !u!1 &523462532
 GameObject:
   m_ObjectHideFlags: 0
@@ -53665,7 +53673,7 @@ Animator:
   m_GameObject: {fileID: 2042471447}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0845b1acf72694fc98130374d5c692c8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 066e87c729b8341988929a92e7554b85, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
