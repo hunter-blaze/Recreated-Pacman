@@ -9,6 +9,5 @@ public class UIManager : MonoBehaviour
 {
     public void LoadScene(string scene) {
         SceneManager.LoadScene(scene);
-        Debug.Log(scene);
     }
 }
