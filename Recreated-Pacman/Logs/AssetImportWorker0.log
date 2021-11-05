@@ -1,0 +1,221 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/oneilrangiuira/Documents/GitHub/Recreated-Pacman/Recreated-Pacman
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52288
+Successfully changed project path to: /Users/oneilrangiuira/Documents/GitHub/Recreated-Pacman/Recreated-Pacman
+/Users/oneilrangiuira/Documents/GitHub/Recreated-Pacman/Recreated-Pacman
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/oneilrangiuira/Documents/GitHub/Recreated-Pacman/Recreated-Pacman/Assets
+GfxDevice: creating device client; threaded=0
+2021-11-06 02:13:27.127 Unity[24992:1463230] (null) preferred device: Apple M1 (high power)
+2021-11-06 02:13:27.127 Unity[24992:1463230] Metal devices available: 1
+2021-11-06 02:13:27.127 Unity[24992:1463230] 0: Apple M1 (high power)
+2021-11-06 02:13:27.127 Unity[24992:1463230] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001503 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.747 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 36.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.716 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2266.
+Total: 1.718584 ms (FindLiveObjects: 0.200917 ms CreateObjectMapping: 0.087916 ms MarkObjects: 1.352875 ms  DeleteObjects: 0.075875 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Tweener.cs
+  artifactKey: Guid(e81869501fae04020a212ecc10ef9a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweener.cs using Guid(e81869501fae04020a212ecc10ef9a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c997ec8f94db1bfad33687ff88db9896') in 0.098376 seconds
+  Import took 0.100899 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.5 MB.
+System memory in use after: 177.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 1.236042 ms (FindLiveObjects: 0.105334 ms CreateObjectMapping: 0.034916 ms MarkObjects: 1.081250 ms  DeleteObjects: 0.013708 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.193726 seconds.
+  path: Assets/Scripts/Tweener.cs
+  artifactKey: Guid(e81869501fae04020a212ecc10ef9a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tweener.cs using Guid(e81869501fae04020a212ecc10ef9a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c1cecbfad635e53ed558219a0f9777') in 0.045422 seconds
+  Import took 0.049436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.024358 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(874d6370c277849e2b1cb523904a377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(874d6370c277849e2b1cb523904a377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319497369e6252db9ef478cbd8288dcd') in 0.000715 seconds
+  Import took 0.003123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005922 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(874d6370c277849e2b1cb523904a377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(874d6370c277849e2b1cb523904a377c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319497369e6252db9ef478cbd8288dcd') in 0.000627 seconds
+  Import took 0.002972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.769097 seconds.
+  path: Assets/Scripts/PacStudentController.cs
+  artifactKey: Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacStudentController.cs using Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c108373b76cbe9a4f9065794b3997911') in 0.001068 seconds
+  Import took 0.003839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003249 seconds.
+  path: Assets/Scripts/PacStudentController.cs
+  artifactKey: Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacStudentController.cs using Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c108373b76cbe9a4f9065794b3997911') in 0.000909 seconds
+  Import took 0.003419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.956720 seconds.
+  path: Assets/Scripts/PacStudentController.cs
+  artifactKey: Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacStudentController.cs using Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6694ac217d23041512ac99221fb02d41') in 0.001208 seconds
+  Import took 0.004143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 809.969076 seconds.
+  path: Assets/Scripts/PacStudentController.cs
+  artifactKey: Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacStudentController.cs using Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7013fe2b817bea5eae1204d039329e9') in 0.002204 seconds
+  Import took 0.006960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.949887 seconds.
+  path: Assets/Scripts/GridManager.cs
+  artifactKey: Guid(622593c6a994c426780f622ee5e88871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GridManager.cs using Guid(622593c6a994c426780f622ee5e88871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eb68f32df24a001e2530cd30d29414') in 0.001985 seconds
+  Import took 0.004497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.380950 seconds.
+  path: Assets/Scripts/GridManager.cs
+  artifactKey: Guid(622593c6a994c426780f622ee5e88871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GridManager.cs using Guid(622593c6a994c426780f622ee5e88871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338958cee0f825c31a26cac5f1a1712f') in 0.001252 seconds
+  Import took 0.004204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.989667 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(68021c95dbef2475bb526d7d9a3f5d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(68021c95dbef2475bb526d7d9a3f5d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507b8a94909c4558eb3b594a230bf8d6') in 0.001227 seconds
+  Import took 0.004576 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.613 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.6 MB.
+System memory in use after: 177.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 1.346541 ms (FindLiveObjects: 0.165208 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.132916 ms  DeleteObjects: 0.012250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.285349 seconds.
+  path: Assets/Scripts/PacStudentController.cs
+  artifactKey: Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacStudentController.cs using Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8565005f0b3b7a1ee8fd80758a42ff0') in 0.004935 seconds
+  Import took 0.007345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023375 seconds.
+  path: Assets/Scripts/PacStudentController.cs
+  artifactKey: Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PacStudentController.cs using Guid(cc17313e6ce4841a2ac3a6bd4e4211e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8565005f0b3b7a1ee8fd80758a42ff0') in 0.000976 seconds
+  Import took 0.003375 seconds .
+
